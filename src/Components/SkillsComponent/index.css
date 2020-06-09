@@ -1,0 +1,9 @@
+.skillsComp{
+    width: 100vw;
+    border: 3px solid red;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-right: 4px;
+    display: grid;
+    justify-content: space-between
+}

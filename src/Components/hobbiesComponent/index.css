@@ -1,0 +1,12 @@
+.hobbiesSize{
+    height: 124px;
+    width: 165px;
+}
+
+.hobbiesComp{
+    border: 3px solid red;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}

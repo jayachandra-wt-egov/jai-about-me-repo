@@ -1,25 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import IntroWithPic from "./Components/IntroWIthPic";
+import ContactInfo from "./Components/ContactInfo/";
+import ProjectComp from "./Components/ProjectComp/";
+import IntroComp from "./Components/IntroComp";
+import ExpComp from "./Components/ExperienceComp";
+import EduComp from "./Components/EducationComp";
+import SkillsComp from "./Components/SkillsComponent";
+import ToolsComp from "./Components/ToolsComponent";
+import HobbiesComp from "./Components/hobbiesComponent";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Welcome to the full stack world</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="rowStyle">
+      <IntroWithPic/>
+      <ContactInfo/>
+      </div>
+      <ProjectComp/>
+      <IntroComp/>
+      <div className= "expEdu">
+      <ExpComp/>
+      <EduComp/>
+      </div>
+      <div className="expEdu">
+      <SkillsComp />
+      <ToolsComp/>
+      <HobbiesComp/>
+      </div>
     </div>
   );
 }

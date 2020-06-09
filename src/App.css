@@ -1,7 +1,27 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  overflow-x: hidden;
+
+
+}
+.commonComp{
+  margin-right: 5px;
 }
 
+.expEdu{
+  display: flex;
+  flex-direction: row;
+
+}
+.rowStyle{
+
+  display: flex !important;
+  flex-direction: row !important;
+  /* margin: 10px; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +34,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

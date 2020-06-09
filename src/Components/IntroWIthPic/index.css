@@ -1,0 +1,30 @@
+.compWithColor{
+    height: 159px;
+    width: 40.5vw;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+}
+.ProfileStyle{
+    border-radius: 50%;
+    height: 152px;
+    width: 150px;
+
+}
+
+.textname{
+    height: 150px;
+    width: 291px;
+    float: right;
+}
+
+.imageStyle{
+    width: 491px;
+}
+
